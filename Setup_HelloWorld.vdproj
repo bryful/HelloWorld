@@ -21,7 +21,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:.\\Install\\Debug\\Setup1.msi"
+        "OutputFilename" = "8:.\\Install\\Debug\\Setup_HelloWorld.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -48,7 +48,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:.\\Install\\Release\\Setup1.msi"
+        "OutputFilename" = "8:.\\Install\\Release\\Setup_HelloWorld.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -65,6 +65,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -144,7 +152,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:HellowWorld"
         "ProductCode" = "8:{F734452A-76A9-41EA-905C-EB84D47927A1}"
-        "PackageCode" = "8:{762A552D-F058-4C93-A081-E58D22FB9797}"
+        "PackageCode" = "8:{A1DEF132-0D1D-4428-A658-EE018BD27020}"
         "UpgradeCode" = "8:{EEF85D23-3E17-4499-B9B9-CAB5C6BA1C49}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

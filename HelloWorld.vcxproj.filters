@@ -19,5 +19,8 @@
     <ClInclude Include=".\include\SoSharedLibDefs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="HellowWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

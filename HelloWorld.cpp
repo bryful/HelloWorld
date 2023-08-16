@@ -1,9 +1,17 @@
 #include "./include/SoSharedLibDefs.h"
+#include "HellowWorld.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <string>
 
-#define EXPORT __declspec(dllexport)
+//#define EXPORT __declspec(dllexport)
+
+#if defined (_WINDOWS)
+#pragma warning( push )
+#pragma warning(disable : 4996) // Security warning about strcpy on win
+#define strdup _strdup
+#endif
+
 
 namespace {
     /// この拡張機能固有のエクスポート関数名定義
@@ -14,7 +22,6 @@ namespace {
 
     constexpr long HELLO_WORLD_VERSION = 1;
 } // namespace
-
 
 ////////////////////////
 // 必須のエクスポート関数
@@ -94,3 +101,8 @@ extern "C" {
         return kESErrOK;
     }
 } // この拡張機能固有のエクスポート関数
+
+#if defined (_WINDOWS)
+#pragma warning( pop )
+#endif
+
