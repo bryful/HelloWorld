@@ -22,7 +22,7 @@
     <ClInclude Include=".\include\SoSharedLibDefs.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include=".\HellowWorld.cpp" />
+    <ClCompile Include=".\HelloWorld.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{491DC6E6-840C-4693-B523-B499A0320C3A}</ProjectGuid>

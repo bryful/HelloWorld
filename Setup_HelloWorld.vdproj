@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:Setup1"
+"ProjectName" = "8:Setup_HelloWorld"
 "LanguageId" = "3:1041"
 "CodePage" = "3:932"
 "UILanguageId" = "3:1041"
@@ -58,6 +58,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -134,7 +142,7 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Setup1"
+        "ProductName" = "8:HellowWorld"
         "ProductCode" = "8:{F734452A-76A9-41EA-905C-EB84D47927A1}"
         "PackageCode" = "8:{762A552D-F058-4C93-A081-E58D22FB9797}"
         "UpgradeCode" = "8:{EEF85D23-3E17-4499-B9B9-CAB5C6BA1C49}"
@@ -147,7 +155,7 @@
         "Manufacturer" = "8:bryful"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Setup1"
+        "Title" = "8:Setup_HellowWorld"
         "Subject" = "8:"
         "ARPCONTACT" = "8:bryful"
         "Keywords" = "8:"
@@ -657,7 +665,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7F13BF72DA334A529C90E04C0F1B1A7D"
             {
-            "SourcePath" = "8:..\\HellowWorld\\x64\\Release\\dll\\HelloWorld.dll"
+            "SourcePath" = "8:x64\\Release\\dll\\HelloWorld.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_7FCF70061CEB4EA6A409F9FB7FC9687E"

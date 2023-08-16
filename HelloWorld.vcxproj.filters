@@ -11,12 +11,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\HellowWorld.cpp">
+    <ClCompile Include=".\HelloWorld.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\SoSharedLibDefs.h">
+    <ClInclude Include=".\include\SoSharedLibDefs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
